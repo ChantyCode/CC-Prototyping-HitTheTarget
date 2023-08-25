@@ -24,7 +24,7 @@ public class Shooting : MonoBehaviour
     {
         mainCam = Camera.main;
         gm = GameObject.Find("GameManager").GetComponent<GameManager>();
-        Debug.Log("launch force starts at: " + launchForce);
+        //Debug.Log("launch force starts at: " + launchForce);
 
     }
 
@@ -78,8 +78,9 @@ public class Shooting : MonoBehaviour
         if (launchForce >= 20.0f)
         {
             launchForce = 20.0f;
-            Debug.Log("Launch force: " + launchForce);
+            //Debug.Log("Launch force: " + launchForce);
         }
+        // ca   imator in runtime
     }
     void ReleaseArrow()
     {
@@ -88,19 +89,19 @@ public class Shooting : MonoBehaviour
         newArrow.GetComponent<Rigidbody2D>().velocity = transform.right * launchForce;
         launchForce = 0;
 
-        Debug.Log("timesShot: " + timesShot + " total chances: " + gm.sets[gm.currentSet - 1].totalChances);
+        //Debug.Log("timesShot: " + timesShot + " total chances: " + gm.sets[gm.currentSet - 1].totalChances);
         
         StartCoroutine(WaitForArrrowCollision());
         
         IEnumerator WaitForArrrowCollision()
         {   
             // Check if the arrow has collided.
-            Debug.Log("Waiting for arrow to collide...");
+            //Debug.Log("Waiting for arrow to collide...");
             canShoot = false;
             if (newArrow.gameObject != null)
             {
                 yield return new WaitUntil(() => newArrow.GetComponent<ArrowBehaviour>().hasHit == true);
-                Debug.Log("Collided");
+                //Debug.Log("Collided");
                 canShoot = true;
 
                 // If the arrow has collided, check if the times shot are greater than or equal to the total chances of the current set.
@@ -114,7 +115,7 @@ public class Shooting : MonoBehaviour
             }
             else
             {
-                Debug.Log("Arrow is off limits");
+                //Debug.Log("Arrow is off limits");
             }
         }
 
