@@ -31,6 +31,7 @@ public class GameManager : MonoBehaviour
     Vector3 playerPos;
     Vector3 targetPos;
 
+
     // Start is called before the first frame update
     void Start()
     {
