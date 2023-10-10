@@ -16,7 +16,7 @@ TagManager:
   - UI
   - Player
   - Background
-  - 
+  - 'Terrain '
   - 
   - 
   - 
@@ -47,6 +47,9 @@ TagManager:
   - name: Background
     uniqueID: 2276740151
     locked: 0
-  - name: New Layer 2
+  - name: Target
     uniqueID: 4105394957
+    locked: 0
+  - name: Player
+    uniqueID: 712408265
     locked: 0

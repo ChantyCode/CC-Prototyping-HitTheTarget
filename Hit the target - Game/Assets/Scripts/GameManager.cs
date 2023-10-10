@@ -38,7 +38,7 @@ public class GameManager : MonoBehaviour
         currentSet = 1;
         points = 0;
 
-        shootingScript = GameObject.Find("Bow").GetComponent<Shooting>();
+        shootingScript = GameObject.Find("Player").GetComponent<Shooting>();
         mainCam = Camera.main;
         mainCamPos = mainCam.transform.position;
         camAnim = mainCam.GetComponent<Animator>();
