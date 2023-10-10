@@ -16,17 +16,21 @@ public class GameManager : MonoBehaviour
     
     // References
     public Camera mainCam;
+    private Animator camAnim;
     public GameObject player;
     public GameObject target;
     private Shooting shootingScript;
     public GameObject victoryScreenUI;
-    
+    string animSet;
+
     private int distanceDifference = 3;
     public int currentSet;
     public int points;
+    private float camLerpSpeed = 0.5f;
     Vector3 mainCamPos;
     Vector3 playerPos;
     Vector3 targetPos;
+
 
     // Start is called before the first frame update
     void Start()
@@ -37,6 +41,7 @@ public class GameManager : MonoBehaviour
         shootingScript = GameObject.Find("Bow").GetComponent<Shooting>();
         mainCam = Camera.main;
         mainCamPos = mainCam.transform.position;
+        camAnim = mainCam.GetComponent<Animator>();
         
         // Set starting wide camera shot position
         mainCamPos = new Vector3(0, 0, -10); 
@@ -62,18 +67,12 @@ public class GameManager : MonoBehaviour
             sets[i].targetDistance = (sets[i - 1].targetDistance) + distanceDifference;
         }
 
-        EvaluateSet();
-    }
+        // Execute camera's animation "Set1" and position the target.
+        animSet = $"Set{currentSet}";
+        camAnim.Play(animSet);
 
-    // Update is called once per frame
-    void Update()
-    {
-        MoveTarget();
-    }
-
-    void MoveTarget() 
-    {   
-        
+        targetPos.x = playerPos.x + sets[0].targetDistance;
+        target.transform.position = targetPos;
     }
 
     public void EvaluateSet()
@@ -83,62 +82,30 @@ public class GameManager : MonoBehaviour
         if (points >= sets[currentSet - 1].minimumPoints && currentSet < 4)
         {
             currentSet++;
+            camAnim.SetInteger("currentSet", currentSet);
+            Debug.Log("Current Set: " + currentSet);
         }
         else if (points >= sets[currentSet - 1].minimumPoints && currentSet == 4)
         {
-            shootingScript.canShoot = false;
             Debug.Log("Victory!");
+            shootingScript.canShoot = false;
             victoryScreenUI.SetActive(true);
-
-            mainCamPos.x -= 2f;
-            mainCamPos.y -= 0.9f;
-            mainCam.transform.position = mainCamPos;
         }
         else
         {
+            camAnim.SetBool("hasLost", true);
             Debug.Log("Start again");
             RestartSets();
         }
         points = 0;
-
-        // Find the current set in order to determine the target distance and camera position.
-
-        if (currentSet == 1)
+        // Find the current set in order to determine the target distance.
+        for (int i = 0; i < sets.Length; i++)
         {
-            mainCam.transform.position = playerPos;
-            mainCam.orthographicSize = currentSet + 1;
-            mainCamPos.x = mainCam.transform.position.x + 3;
-            mainCamPos.y = mainCam.transform.position.y + 1;
-            mainCam.transform.position = mainCamPos;
-
-            targetPos.x = playerPos.x + sets[0].targetDistance;
-            target.transform.position = targetPos;
-        }
-        else if (currentSet == 4)
-        {
-            mainCam.orthographicSize = currentSet + 1;
-            mainCamPos.x += 2f;
-            mainCamPos.y += 0.9f;
-            mainCam.transform.position = mainCamPos;
-
-            targetPos.x = playerPos.x + sets[3].targetDistance;
-            target.transform.position = targetPos;
-        }
-        else
-        {
-            for (int i = 1; i < sets.Length - 1; i++)
-            {
-                if (currentSet == i+1)
-                { 
-                    mainCam.orthographicSize = currentSet + 1;
-                    mainCamPos.x += 1.5f;
-                    mainCamPos.y += 1.0f;
-                    mainCam.transform.position = mainCamPos;
-
-                    targetPos.x = playerPos.x + sets[i].targetDistance;
-                    target.transform.position = targetPos;
-                }   
-            }
+            if (currentSet == i + 1)
+            { 
+                targetPos.x = playerPos.x + sets[i].targetDistance;
+                target.transform.position = targetPos;
+            }   
         }
     }
 
@@ -157,14 +124,14 @@ public class GameManager : MonoBehaviour
     public void RestartSets()
     {
         currentSet = 1;
-        mainCam.transform.position = playerPos;
-        mainCam.orthographicSize = currentSet + 1;
-        mainCamPos.x = mainCam.transform.position.x + 3;
-        mainCamPos.y = mainCam.transform.position.y + 1;
-        mainCam.transform.position = mainCamPos;
+        camAnim.SetInteger("currentSet", 1);
+        camAnim.SetBool("hasLost", false);
+        animSet = $"Set{currentSet}";
+        camAnim.Play(animSet);
 
         targetPos.x = playerPos.x + sets[0].targetDistance;
         target.transform.position = targetPos;
+
         StartCoroutine(AllowShooting());
         IEnumerator AllowShooting()
         {
