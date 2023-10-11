@@ -21,6 +21,7 @@ public class GameManager : MonoBehaviour
     public GameObject target;
     private Shooting shootingScript;
     public GameObject victoryScreenUI;
+    public GameObject confettiPS;
     string animSet;
 
     private int distanceDifference = 3;
@@ -88,6 +89,7 @@ public class GameManager : MonoBehaviour
         else if (points >= sets[currentSet - 1].minimumPoints && currentSet == 4)
         {
             Debug.Log("Victory!");
+            confettiPS.gameObject.SetActive(true);
             shootingScript.canShoot = false;
             victoryScreenUI.SetActive(true);
         }
@@ -125,6 +127,7 @@ public class GameManager : MonoBehaviour
     {
         currentSet = 1;
         camAnim.SetInteger("currentSet", 1);
+        confettiPS.gameObject.SetActive(false);
         camAnim.SetBool("hasLost", false);
         animSet = $"Set{currentSet}";
         camAnim.Play(animSet);
