@@ -8,10 +8,16 @@ public class ArrowBehaviour : MonoBehaviour
     private Rigidbody2D rb;
     public bool hasHit;
     private GameManager gm;
+
     // Start is called before the first frame update
     void Start()
     {
         gm = GameObject.Find("GameManager").GetComponent<GameManager>();
+
+        // Ignore player collider. 
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        Physics2D.IgnoreCollision(player.GetComponent<Collider2D>(), GetComponent<Collider2D>());
+        
         rb = GetComponent<Rigidbody2D>();
         hasHit = false;
     }
@@ -28,11 +34,7 @@ public class ArrowBehaviour : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Player")
-        {
-            return;
-        }
-        else if (collision.gameObject.tag == "Target")
+        if (collision.gameObject.tag == "Target")
         {
             hasHit = true;
             gm.points++;
@@ -45,7 +47,6 @@ public class ArrowBehaviour : MonoBehaviour
             // Stop the arrow and disable its rigidbody by making it kinematic.
             rb.velocity = Vector2.zero;
             rb.isKinematic = true;
-            Debug.Log("Collided with: " + collision.gameObject.name);
         }
     }
 
