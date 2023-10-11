@@ -1,0 +1,3567 @@
+fileFormatVersion: 2
+guid: 8d8b390758f669042b3858aacb38e274
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_0
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 2207
+        width: 75
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62c42909fc11c247ab2b59b6001824e
+      internalID: -1683010633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_1
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 2269
+        width: 255
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62bcbe892e2ca734db8c4f62d98d0787
+      internalID: 857018544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_2
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 2283
+        width: 42
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab755faf1a5d10f4a9f7957065f890f7
+      internalID: 1569315103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_3
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 2233
+        width: 287
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224ec8951e0b8884ab88eb6d0a7d3d9f
+      internalID: -1543233727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_4
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 2184
+        width: 268
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e275efd73b30844b5766723c99e74d
+      internalID: -1429388807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_5
+      rect:
+        serializedVersion: 2
+        x: 2185
+        y: 2233
+        width: 75
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71b8481eeadc6449841f8d06f4f5563
+      internalID: 1391375430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_6
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 2200
+        width: 45
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c8ab9faedb47447a06e1b825bb9b86
+      internalID: -1114145039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_7
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 2213
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdee147f721260e44ad4958060492b72
+      internalID: -1488782646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_8
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 2083
+        width: 104
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5dc9f29cd82e744a0150d18264a3c0
+      internalID: 1154872115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_9
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 2029
+        width: 80
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e260f213ba372247a474c8bcbf5f29b
+      internalID: -188633701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_10
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 2114
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11691500ce134624f89c626a4dad8624
+      internalID: 661043102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_11
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 2097
+        width: 61
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e96bebbc729ba4896f7f3fe9ba4bee
+      internalID: -841599045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_12
+      rect:
+        serializedVersion: 2
+        x: 2360
+        y: 2120
+        width: 59
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ebb51ed8dafd649a2217946c25373e
+      internalID: -1517821855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1829
+        width: 254
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39e3be2953434543960be5ce93b1a18
+      internalID: 2048057159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_14
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 2054
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fcd4fe99a0d4364fbd555a625cf1b3a
+      internalID: -2130051369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_15
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 2052
+        width: 49
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9958c5966caaed049abb368ee1d4e8a4
+      internalID: 26713384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_16
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 2058
+        width: 61
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0292036473d3f64e87218ef639ff127
+      internalID: 1668239543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_17
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 2035
+        width: 47
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39227eda38fa9e4996d40bd502a78a9
+      internalID: -1735804940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_18
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 1949
+        width: 136
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40f29bcabf35ad4cae2152c984acd31
+      internalID: -1344722157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_19
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 1984
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53e8696c6e30b340b050167221b6ec5
+      internalID: -1849831992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_20
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1973
+        width: 48
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2f6974ecde4e84a9d6ad332c11ea0a
+      internalID: 1960481401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_21
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 1924
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53b8ed45a248314d8bdf26fefef9e56
+      internalID: 436953741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_22
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 1895
+        width: 76
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c0c536b2677fe42ba520fe21bfd843
+      internalID: -1320731116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_23
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 1882
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc842292e39acbb4e98ac7b39e5b3607
+      internalID: -441907282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_24
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 1932
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312c7dd737b6921459f3e6cbba5db13e
+      internalID: 997734150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_25
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 1863
+        width: 152
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ca0620447bd104a8f8cbd2fcfb8d17
+      internalID: 517748579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_26
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1891
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c756021f1ecafaf408a66791614a8d9b
+      internalID: 317025955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_27
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 1877
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d62ace632a31df4abaacfcb81f22c2e
+      internalID: 223772437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_28
+      rect:
+        serializedVersion: 2
+        x: 2373
+        y: 1805
+        width: 127
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4319be54b520f8247a163a38151e20b3
+      internalID: -1933809003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_29
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 1857
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82bca7064ae6c5c48aba31ff3fc063be
+      internalID: 691543543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_30
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 1844
+        width: 62
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f3e1ee10f66c145ac85e138623792e
+      internalID: 1277737766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_31
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 1816
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0320b095a6dd0a24e8182e8ea2b0e036
+      internalID: -609781242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_32
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 1838
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17702b7f9d2f9ae4db6bc6e0ca2c39ee
+      internalID: -1469874119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1597
+        width: 135
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c68f92cf7cbd64ab6b4d3724c63dee
+      internalID: 1703188941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_34
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1766
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26acb0dfaf864344ba499718f4123ab2
+      internalID: -1253671072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_35
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1659
+        width: 89
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451f220e65ef8124f8789d6169e47029
+      internalID: 1867673911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_36
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 1753
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b496c3843510143b6af0f130b930bf
+      internalID: 1580512745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_37
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 1709
+        width: 84
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7709a5cc0670e694fac0e0b01aa0caad
+      internalID: -682362271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_38
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 1758
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1beed0b43c9fb56449dd77629851bdca
+      internalID: -1268496893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_39
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 1761
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292a270814182614f89e1d4d4a42ad4e
+      internalID: 1288142596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_40
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 1752
+        width: 42
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d35ebe381da524991f4c9c63014aad
+      internalID: 2011211582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_41
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1676
+        width: 40
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b05356eaefcc62459d921638eae16d6
+      internalID: -1199605645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_42
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 1735
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6257646e56a5148a9f6622f8ed627f
+      internalID: -1179147927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_43
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 1700
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e28133511bfcc940b05c72d3f455da9
+      internalID: -1920114854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_44
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 1696
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecadf691b9d3f274297c1516dbdebb45
+      internalID: -844396446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_45
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 1696
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8daef913a99c33a46862c2e0a64d3456
+      internalID: 1685734950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_46
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 1654
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48918ad1c5744ed489d18e7aeeada245
+      internalID: -632934658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_47
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 1669
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c10fa840b27e1f4db3c2369ffd38c26
+      internalID: -963038250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_48
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 1545
+        width: 189
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a8481c3e044994ea86747a5ecb4f4b
+      internalID: -154855119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_49
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 1589
+        width: 41
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e90fd3ee6315f42a0169e74a247eaa
+      internalID: 851107139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_50
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 1544
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b9dc7721a2c004ea29569465c1a92b
+      internalID: 417131458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_51
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 1598
+        width: 49
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1e06a10a646104a829cfe5f6bb94e6
+      internalID: 921978056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_52
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 1580
+        width: 41
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc27d06f65902ec4c969ba457d3f2ba7
+      internalID: -61463726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_53
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 1581
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a81fdeae7fa5d2641bfd69260e91aa0d
+      internalID: 1850613664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_54
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 1580
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048f35b5c03bf1444ab16f1ce36ae559
+      internalID: 1998499366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_55
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1477
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf09001271910846b0095108de8be08
+      internalID: -616217319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_56
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 1479
+        width: 75
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a64e70b60429a40942481b2d7b9a61
+      internalID: 475514579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_57
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 1526
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e17b7d2b2f95045a5192d1aaadf594
+      internalID: -940323698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_58
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 1517
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e8fff953177954dab994cf07619cac
+      internalID: 1240421671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_59
+      rect:
+        serializedVersion: 2
+        x: 2391
+        y: 1509
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb25e5b92c1d79a489c37593a90bd2df
+      internalID: -1531713029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_60
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1509
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0dda204c5699348a926351d363de61
+      internalID: 581449611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_61
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1486
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad21279664025547983bb36e765fb8f
+      internalID: 396050169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_62
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 1434
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b7ba0c0d2a51d4aa0c8401466bedb2
+      internalID: -2045049400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_63
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 1455
+        width: 57
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf819d05dd44c7e44851384be761e22d
+      internalID: -1468742661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_64
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 1464
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8335068ddc8163e47b487375674b532c
+      internalID: -2140414056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_65
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 1456
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e85dd8154eed354790acfb2255bf8db
+      internalID: -176885204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_66
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 1449
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad84e303dfabdb44b3f58b02abb4456
+      internalID: -452956742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_67
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 1371
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17baf6b16fba744a88c74123dbdb743
+      internalID: -1158426092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_68
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 1431
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62847c405ab5f0b43b85d40b4acecf62
+      internalID: -256835736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_69
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1355
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326e69b4a75fc7149ab5c2e89afc0548
+      internalID: 1497851353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_70
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 1387
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d345c15a867c4a409d120763c5b0a62
+      internalID: 82243353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_71
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 1332
+        width: 100
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41399baa496a1b642b2f502e5de3c3c1
+      internalID: -1264072273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_72
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 1370
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea0218122f2af5468f0aeee5e99ddf3
+      internalID: -1883303260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_73
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 1323
+        width: 110
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74be5d71f57938b49b9ee09a60462736
+      internalID: 405500911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_74
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 1331
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b660c13cc794c04f9300954c18344b9
+      internalID: 179837032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_75
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1270
+        width: 89
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f078a5f29ff754eac8937a62c0cb0f
+      internalID: 1184552194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_76
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 1281
+        width: 67
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88121f266119969429d7d0e3388aa85b
+      internalID: 502138215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_77
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1324
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977cd4a31d32a0d4bb1f9a8a6d17e97e
+      internalID: 2111804805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_78
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 1346
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355e03ec8ec6e68439711c3d18cf5a20
+      internalID: -1813978047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_79
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1272
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d8d928618d668499c8b8e8ae65a328
+      internalID: -2140468306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_80
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1257
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890974fca88dc80418ccf971ce8e2eb8
+      internalID: -366140957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_81
+      rect:
+        serializedVersion: 2
+        x: 2058
+        y: 1287
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff14bc6e99a3aea4ea288a13c0becd27
+      internalID: 1938147536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_82
+      rect:
+        serializedVersion: 2
+        x: 2175
+        y: 1233
+        width: 28
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3acbc5564f0e74e8870c4c95d4ac5b
+      internalID: -2044976117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_83
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1226
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e5e68832c5178d49a191cf59075bbd6
+      internalID: -1557601003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_84
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 1238
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eab3e2df31c68d46a237d3039430f24
+      internalID: 1520713826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_85
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 1238
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf59bb795ea00a34ebf9889decbf8db1
+      internalID: -2016262559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_86
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 1208
+        width: 75
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588134ce0c5bbc041b0ee23df84f935e
+      internalID: 1251123715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_87
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1216
+        width: 73
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dea69808a1068243807ba37148de648
+      internalID: 574601859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_88
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 1233
+        width: 59
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d0639a882258e4cb33f2faa82bd0f4
+      internalID: 1194689667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_89
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 1174
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4524019532d04542b96152ec42cc7b6
+      internalID: 130761164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_90
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 1165
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a657d685e9acbee458b61c0e0965f262
+      internalID: 104639909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_91
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 1160
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9258e208f14684f8c8f40498f54e4d
+      internalID: 1768758536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_92
+      rect:
+        serializedVersion: 2
+        x: 2374
+        y: 1158
+        width: 54
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce3b37c6b9e07c4d9eddb3abd1fc74e
+      internalID: -532655135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_93
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1133
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e362fd6e07da5e4cab37f15feb4c56d
+      internalID: -569874568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_94
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1123
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a538a5d10ada14e9516764a2e9cd1c
+      internalID: 1287326468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_95
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 1124
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad8cd45a9c0a894da596426cf43b600
+      internalID: -1735659888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_96
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 1127
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3676bfe87528ba44b3ee92d6afc1ca9
+      internalID: 786096566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_97
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 1094
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31d6d1a2ea82674a9d82bb26c2935a0
+      internalID: 416601348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_98
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 1051
+        width: 104
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453ade8833fd8c242b7aab2036baec20
+      internalID: 1373224454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_99
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 1132
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f63571ea66c174b8eeb5d3058d9636
+      internalID: -476915913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_100
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 1138
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74499f85dda24e4590f02da57714fe4
+      internalID: -1980953627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_101
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 961
+        width: 102
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e8ba901b5187b498805b3630c33f6c
+      internalID: -1900818358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_102
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1002
+        width: 180
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b3232c81e7903479c52601e5ac066a
+      internalID: 288896590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_103
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 1049
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e25c02c38f521479683d26999d715c
+      internalID: -1294060773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_104
+      rect:
+        serializedVersion: 2
+        x: 2212
+        y: 898
+        width: 190
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2485101d7a88144b6367570e8b7ba0
+      internalID: -422177861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_105
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 997
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99cea3194835c24986ec4eb2118c7b5
+      internalID: 1732726583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_106
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 958
+        width: 51
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eebb2aef09ccf94b879ff57fa482381
+      internalID: 1921543975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_107
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 961
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f8019e2854a7341be09ee1c7181fd8
+      internalID: 172366350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_108
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 1011
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65dcc1175073944e9b81d9073755a94
+      internalID: -710502577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_109
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 985
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57fc09a3a505ee2498d1c77d2a353a13
+      internalID: -1203915188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_110
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 936
+        width: 60
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e9da531437e3f459d4cfe7c9c50a74
+      internalID: 1198403480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_111
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 940
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb284bcdd7e6154e8e595b53d07fbe2
+      internalID: 375497626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_112
+      rect:
+        serializedVersion: 2
+        x: 2075
+        y: 911
+        width: 56
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae0f6ee90bb7d448bac8bf963da4ebf
+      internalID: -177862158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_113
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 853
+        width: 21
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf73edd18d730534fa9f408c0c1f2798
+      internalID: 1513577711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_114
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 896
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 513d9ba21ad40ef4bb48846c5b72f76d
+      internalID: -704817798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_115
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 906
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 008ceaa8c7d52dc49823eb680c60cded
+      internalID: -813441471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_116
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 890
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de3a4610c9f06e4190f5a44dc0fa3fd
+      internalID: -1050700437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_117
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 883
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89122c058df3c7f47a87e5be2df63642
+      internalID: -18966839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_118
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 892
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308e2485abf89c84a9eb01e0b6b56ecd
+      internalID: 1395309036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_119
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 883
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c594da50a821893409d8d0998583c765
+      internalID: -1839862466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_120
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 824
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674bb22ef647e3b4089a5aa7a56f4f45
+      internalID: 287528291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_121
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 846
+        width: 59
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34239268a52f43346820b9ea09e29ad6
+      internalID: 871449091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_122
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 808
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d798117fc3fef408a19f91f3c01414
+      internalID: 2127957565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_123
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 789
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f439d8c47284447b724a42b4145e9d
+      internalID: 1822124513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_124
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 762
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8936ce3e2a88384bb1800e533e4ac73
+      internalID: 250488249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_125
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 768
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da274c440cb9ac541bc0673d6574e304
+      internalID: 1911057314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_126
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 729
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1326ba2d5d6e246a913c086e6c73c6
+      internalID: -1852667853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_127
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 696
+        width: 61
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2275fbb1a7ea48443917b88f76cc6d89
+      internalID: -1652480048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_128
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 743
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2363e56e9308d844ba5866cc9776d95
+      internalID: 1154593685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_129
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 608
+        width: 109
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905ff84ae65d29b418b78fb535f477e4
+      internalID: -11885803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_130
+      rect:
+        serializedVersion: 2
+        x: 2102
+        y: 223
+        width: 365
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f076d91bbd3634642ad8ef7abb8f2715
+      internalID: -221400599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_131
+      rect:
+        serializedVersion: 2
+        x: 2230
+        y: 721
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f93185cdb4f6742b085d74647a1ea1
+      internalID: -2140674441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_132
+      rect:
+        serializedVersion: 2
+        x: 2415
+        y: 701
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f69da2e813ad184cbbf500c2e8cbbab
+      internalID: -1983195695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_133
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 162
+        width: 348
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c7d17e85549d948a6b1a9ff3fd4283
+      internalID: 1902408502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_134
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 673
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551daa8147b320b4287fa7c9ca72a0cf
+      internalID: -378304213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_135
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 647
+        width: 83
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c1f3e30d1a6c944bb88d3bb37ad42e
+      internalID: -651682774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_136
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 640
+        width: 44
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0488fa36340594aa26bdc71891d4dd
+      internalID: -1601836809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_137
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 640
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e3fa5a5d10c1848a1698ebdb64189f
+      internalID: -1174907824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_138
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 607
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84ebe9a870518f4eac0dea6c7a04658
+      internalID: -1986661874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_139
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 519
+        width: 83
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695b96e3b7d42ce4482b6410c9b18842
+      internalID: -216003715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_140
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 522
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be732cd02cde3a34fb2fffa2f0f914d2
+      internalID: 1052075633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_141
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 419
+        width: 76
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e491b87a23a794c95fae8def9be3a3
+      internalID: 96403005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_142
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 404
+        width: 74
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6187e61effdb7db49963069d0c5f6453
+      internalID: 1031222564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_143
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 409
+        width: 81
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de5b34aea0d24b4494932d8bbb34666
+      internalID: 10941862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_144
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 465
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298fd6763c8c9524b99098d7653ee808
+      internalID: 1462125152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_145
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 468
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1141a7a974fa2944fb4065472e3c34ea
+      internalID: -442638485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_146
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 399
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07e16175816c9a46a1179d44103952a
+      internalID: -245689444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_147
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 276
+        width: 198
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045c8ce277af1e444819e6799653a45a
+      internalID: -864668054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_148
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 265
+        width: 124
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac13f0dbfbcc5848b851629c5a15484
+      internalID: -1170502331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_149
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 126
+        width: 40
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bad13bc7ce1b104fa51c5a32762571f
+      internalID: 674375407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_150
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 317
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d1265f4a830c14dbcb50bc2e6c7545
+      internalID: 926709019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_151
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 310
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed483607f7ae048428dc751bfab01c77
+      internalID: -1960296812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_152
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 98
+        width: 74
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca31a7da21c2b4443b7a87a5bce8d5ae
+      internalID: -962078870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_153
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 132
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47ea3595a8328f459aae78e75c814e1
+      internalID: 26902504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_154
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 56
+        width: 216
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdfa0869c4a5a35428948a094a195c3e
+      internalID: -1776864519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_155
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 61
+        width: 50
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7931f5d1662f544ad1a6f02f812afa
+      internalID: 1483622236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_0: -1683010633
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_1: 857018544
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_10: 661043102
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_100: -1980953627
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_101: -1900818358
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_102: 288896590
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_103: -1294060773
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_104: -422177861
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_105: 1732726583
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_106: 1921543975
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_107: 172366350
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_108: -710502577
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_109: -1203915188
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_11: -841599045
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_110: 1198403480
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_111: 375497626
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_112: -177862158
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_113: 1513577711
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_114: -704817798
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_115: -813441471
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_116: -1050700437
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_117: -18966839
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_118: 1395309036
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_119: -1839862466
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_12: -1517821855
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_120: 287528291
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_121: 871449091
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_122: 2127957565
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_123: 1822124513
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_124: 250488249
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_125: 1911057314
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_126: -1852667853
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_127: -1652480048
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_128: 1154593685
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_129: -11885803
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_13: 2048057159
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_130: -221400599
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_131: -2140674441
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_132: -1983195695
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_133: 1902408502
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_134: -378304213
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_135: -651682774
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_136: -1601836809
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_137: -1174907824
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_138: -1986661874
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_139: -216003715
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_14: -2130051369
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_140: 1052075633
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_141: 96403005
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_142: 1031222564
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_143: 10941862
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_144: 1462125152
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_145: -442638485
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_146: -245689444
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_147: -864668054
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_148: -1170502331
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_149: 674375407
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_15: 26713384
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_150: 926709019
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_151: -1960296812
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_152: -962078870
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_153: 26902504
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_154: -1776864519
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_155: 1483622236
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_16: 1668239543
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_17: -1735804940
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_18: -1344722157
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_19: -1849831992
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_2: 1569315103
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_20: 1960481401
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_21: 436953741
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_22: -1320731116
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_23: -441907282
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_24: 997734150
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_25: 517748579
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_26: 317025955
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_27: 223772437
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_28: -1933809003
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_29: 691543543
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_3: -1543233727
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_30: 1277737766
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_31: -609781242
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_32: -1469874119
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_33: 1703188941
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_34: -1253671072
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_35: 1867673911
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_36: 1580512745
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_37: -682362271
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_38: -1268496893
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_39: 1288142596
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_4: -1429388807
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_40: 2011211582
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_41: -1199605645
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_42: -1179147927
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_43: -1920114854
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_44: -844396446
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_45: 1685734950
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_46: -632934658
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_47: -963038250
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_48: -154855119
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_49: 851107139
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_5: 1391375430
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_50: 417131458
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_51: 921978056
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_52: -61463726
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_53: 1850613664
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_54: 1998499366
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_55: -616217319
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_56: 475514579
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_57: -940323698
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_58: 1240421671
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_59: -1531713029
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_6: -1114145039
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_60: 581449611
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_61: 396050169
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_62: -2045049400
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_63: -1468742661
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_64: -2140414056
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_65: -176885204
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_66: -452956742
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_67: -1158426092
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_68: -256835736
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_69: 1497851353
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_7: -1488782646
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_70: 82243353
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_71: -1264072273
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_72: -1883303260
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_73: 405500911
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_74: 179837032
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_75: 1184552194
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_76: 502138215
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_77: 2111804805
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_78: -1813978047
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_79: -2140468306
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_8: 1154872115
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_80: -366140957
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_81: 1938147536
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_82: -2044976117
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_83: -1557601003
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_84: 1520713826
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_85: -2016262559
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_86: 1251123715
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_87: 574601859
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_88: 1194689667
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_89: 130761164
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_9: -188633701
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_90: 104639909
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_91: 1768758536
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_92: -532655135
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_93: -569874568
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_94: 1287326468
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_95: -1735659888
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_96: 786096566
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_97: 416601348
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_98: 1373224454
+      vecteezy_confetti-png-image-for-birthday-party-background-simple_9903093_551_99: -476915913
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
