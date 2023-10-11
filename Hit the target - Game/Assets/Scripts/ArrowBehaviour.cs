@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -44,6 +45,7 @@ public class ArrowBehaviour : MonoBehaviour
             // Stop the arrow and disable its rigidbody by making it kinematic.
             rb.velocity = Vector2.zero;
             rb.isKinematic = true;
+            Debug.Log("Collided with: " + collision.gameObject.name);
         }
     }
 
