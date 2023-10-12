@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using UnityEngine;
 
 public class Shooting : MonoBehaviour
@@ -9,6 +10,9 @@ public class Shooting : MonoBehaviour
     private Animator anim;
     private GameManager gm;
     public Transform bowPivot;
+    public AudioSource source; 
+    public AudioClip tensingSfx;
+    public AudioClip releaseSfx;
     Vector2 mousePos;
     Camera mainCam;
 
@@ -26,7 +30,6 @@ public class Shooting : MonoBehaviour
         mainCam = Camera.main;
         anim = GetComponent<Animator>();
         gm = GameObject.Find("GameManager").GetComponent<GameManager>();
-
         anim.SetBool("CanShoot", canShoot);
     }
 
@@ -54,9 +57,10 @@ public class Shooting : MonoBehaviour
         // If the mouse is released, do what's inside once per frame. 
         if (Input.GetMouseButtonUp(0) && canShoot)
         {
+            source.PlayOneShot(releaseSfx);
             anim.SetBool("IsTensing", false);
             timesShot++; 
-            ReleaseArrow(); 
+            ReleaseArrow();
         }
         
     }
@@ -79,6 +83,10 @@ public class Shooting : MonoBehaviour
     }
     void BowStretching()
     {
+        if (launchForce == 0)
+        {
+            source.PlayOneShot(tensingSfx);
+        } 
         launchForce += Time.deltaTime * chargeSpeed;
         if (launchForce >= 20.0f)
         {
