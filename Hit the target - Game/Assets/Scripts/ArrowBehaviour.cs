@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,12 +6,23 @@ using UnityEngine;
 public class ArrowBehaviour : MonoBehaviour
 {
     private Rigidbody2D rb;
+    private AudioSource source;
+    public AudioClip targetImpactSFX;
+    public AudioClip groundImpactSFX;
     public bool hasHit;
     private GameManager gm;
+
     // Start is called before the first frame update
     void Start()
     {
         gm = GameObject.Find("GameManager").GetComponent<GameManager>();
+
+        source = GetComponent<AudioSource>();
+
+        // Ignore player collider. 
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        Physics2D.IgnoreCollision(player.GetComponent<Collider2D>(), GetComponent<Collider2D>());
+        
         rb = GetComponent<Rigidbody2D>();
         hasHit = false;
     }
@@ -27,12 +39,9 @@ public class ArrowBehaviour : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "Target")
         {
-            return;
-        }
-        else if (collision.gameObject.tag == "Target")
-        {
+            source.PlayOneShot(targetImpactSFX);
             hasHit = true;
             gm.points++;
             rb.velocity = Vector2.zero;
@@ -40,6 +49,7 @@ public class ArrowBehaviour : MonoBehaviour
         }
         else
         {
+            source.PlayOneShot(groundImpactSFX);
             hasHit = true;
             // Stop the arrow and disable its rigidbody by making it kinematic.
             rb.velocity = Vector2.zero;

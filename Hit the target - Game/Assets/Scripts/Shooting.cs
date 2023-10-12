@@ -1,18 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using UnityEngine;
 
 public class Shooting : MonoBehaviour
 {
     public GameObject arrow;
+    public GameObject bow;
+    private Animator anim;
     private GameManager gm;
-    public Transform shotPoint;
+    public Transform bowPivot;
+    public AudioSource source; 
+    public AudioClip tensingSfx;
+    public AudioClip releaseSfx;
     Vector2 mousePos;
     Camera mainCam;
 
     private float launchForce = 0;
     public float chargeSpeed = 5.0f;
-    private float maxPower = 2.0f;
     public bool canShoot = true;
     private int timesShot = 0;
     Vector2 aimDirection;
@@ -23,9 +28,9 @@ public class Shooting : MonoBehaviour
     void Start()
     {
         mainCam = Camera.main;
+        anim = GetComponent<Animator>();
         gm = GameObject.Find("GameManager").GetComponent<GameManager>();
-        Debug.Log("launch force starts at: " + launchForce);
-
+        anim.SetBool("CanShoot", canShoot);
     }
 
     // Update is called once per frame
@@ -33,75 +38,82 @@ public class Shooting : MonoBehaviour
     {
         // Calculate mouse world position
         mousePos = mainCam.ScreenToWorldPoint(Input.mousePosition);
+
         // Find the direction of the bow relative to the mouse position
         aimDirection = (mousePos - (Vector2)transform.position).normalized;   
         angle = Mathf.Atan2(aimDirection.y, aimDirection.x) * Mathf.Rad2Deg;
 
-        CalculateBowRotation();
-        FlipGun();
+        LimitROM();
+
         // If the mouse is being held down, do what's inside once per frame.
         if (Input.GetMouseButton(0) && canShoot)
         {
             BowStretching();
+            CalculateBowRotation();
+            anim.SetBool("IsTensing", true);
+            bow.gameObject.SetActive(true);
         }
+        
         // If the mouse is released, do what's inside once per frame. 
         if (Input.GetMouseButtonUp(0) && canShoot)
         {
+            source.PlayOneShot(releaseSfx);
+            anim.SetBool("IsTensing", false);
             timesShot++; 
-            ReleaseArrow(); 
+            ReleaseArrow();
         }
         
     }
     void CalculateBowRotation()
     {
         // Calculate the rotation of the bow with respect to the mouse position
-        transform.right = aimDirection;
+        bowPivot.right = aimDirection;
     }
-    void FlipGun()
+    void LimitROM()
     {
         // Flip the gun when it reaches the 90 degree threshold
-        Vector3 localScale = Vector3.one; 
-        if (angle > 90 || angle < -90)
+        if (angle > 90)
         {
-            localScale.y = -1.0f;
+            bowPivot.rotation = Quaternion.Euler(new Vector3(0, 0, 90));
         }
-        else
+        else if (angle < -90)
         {
-            localScale.y = 1.0f;
+            bowPivot.rotation = Quaternion.Euler(new Vector3(0, 0, -90));
         }
-
-        gameObject.transform.localScale = localScale;
     }
     void BowStretching()
     {
+        if (launchForce == 0)
+        {
+            source.PlayOneShot(tensingSfx);
+        } 
         launchForce += Time.deltaTime * chargeSpeed;
         if (launchForce >= 20.0f)
         {
             launchForce = 20.0f;
-            Debug.Log("Launch force: " + launchForce);
         }
     }
     void ReleaseArrow()
     {
         // Instantiate a new arrow from the shot point with a velocity in the z axis times launchForce(time under tension).
-        GameObject newArrow = Instantiate(arrow, shotPoint.position, transform.rotation) as GameObject;
-        newArrow.GetComponent<Rigidbody2D>().velocity = transform.right * launchForce;
+        GameObject newArrow = Instantiate(arrow, bowPivot.position, bowPivot.rotation) as GameObject;
+        newArrow.GetComponent<Rigidbody2D>().velocity = bowPivot.right * launchForce;
         launchForce = 0;
-
-        Debug.Log("timesShot: " + timesShot + " total chances: " + gm.sets[gm.currentSet - 1].totalChances);
-        
+    
         StartCoroutine(WaitForArrrowCollision());
         
         IEnumerator WaitForArrrowCollision()
         {   
             // Check if the arrow has collided.
-            Debug.Log("Waiting for arrow to collide...");
             canShoot = false;
+            bow.gameObject.SetActive(false);
+            anim.SetBool("CanShoot", canShoot);
+
             if (newArrow.gameObject != null)
             {
                 yield return new WaitUntil(() => newArrow.GetComponent<ArrowBehaviour>().hasHit == true);
-                Debug.Log("Collided");
                 canShoot = true;
+                anim.SetBool("CanShoot", canShoot);
 
                 // If the arrow has collided, check if the times shot are greater than or equal to the total chances of the current set.
                 if (timesShot >= gm.sets[gm.currentSet - 1].totalChances)
@@ -111,10 +123,6 @@ public class Shooting : MonoBehaviour
                     gm.EvaluateSet();
                     newArrow.GetComponent<ArrowBehaviour>().hasHit = false;
                 }
-            }
-            else
-            {
-                Debug.Log("Arrow is off limits");
             }
         }
 
