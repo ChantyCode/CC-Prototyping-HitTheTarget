@@ -20,7 +20,6 @@ public class Scoreboard : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         tmpro_minPoints.text = string.Format("Minimum points: {0}/{1}", gm.sets[gm.currentSet - 1].minimumPoints, gm.sets[gm.currentSet - 1].totalChances);
         tmpro_set.text = string.Format("Set: {0}/4", gm.currentSet);
         tmpro_pts.text = string.Format("Points: {0}", gm.points);

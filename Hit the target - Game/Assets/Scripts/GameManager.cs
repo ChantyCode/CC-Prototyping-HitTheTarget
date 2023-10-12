@@ -27,8 +27,8 @@ public class GameManager : MonoBehaviour
     private int distanceDifference = 3;
     public int currentSet;
     public int points;
-    private float camLerpSpeed = 0.5f;
-    Vector3 mainCamPos;
+    public int totalPoints;
+
     Vector3 playerPos;
     Vector3 targetPos;
 
@@ -41,11 +41,9 @@ public class GameManager : MonoBehaviour
 
         shootingScript = GameObject.Find("Player").GetComponent<Shooting>();
         mainCam = Camera.main;
-        mainCamPos = mainCam.transform.position;
         camAnim = mainCam.GetComponent<Animator>();
         
         // Set starting wide camera shot position
-        mainCamPos = new Vector3(0, 0, -10); 
         playerPos = player.transform.position;
         targetPos = target.transform.position;
         
