@@ -31,6 +31,9 @@ public class Shooting : MonoBehaviour
         anim = GetComponent<Animator>();
         gm = GameObject.Find("GameManager").GetComponent<GameManager>();
         anim.SetBool("CanShoot", canShoot);
+        this.GetComponent<AudioSource>().mute = MainManager.Instance.areSFXMuted;
+        this.GetComponent<AudioSource>().volume = MainManager.Instance.soundsValue;
+
     }
 
     // Update is called once per frame
@@ -42,8 +45,6 @@ public class Shooting : MonoBehaviour
         // Find the direction of the bow relative to the mouse position
         aimDirection = (mousePos - (Vector2)transform.position).normalized;   
         angle = Mathf.Atan2(aimDirection.y, aimDirection.x) * Mathf.Rad2Deg;
-
-        LimitROM();
 
         // If the mouse is being held down, do what's inside once per frame.
         if (Input.GetMouseButton(0) && canShoot)
@@ -68,6 +69,7 @@ public class Shooting : MonoBehaviour
     {
         // Calculate the rotation of the bow with respect to the mouse position
         bowPivot.right = aimDirection;
+        LimitROM();
     }
     void LimitROM()
     {

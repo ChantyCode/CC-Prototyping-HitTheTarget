@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 
 public struct Set
@@ -22,6 +23,7 @@ public class GameManager : MonoBehaviour
     private Shooting shootingScript;
     public GameObject victoryScreenUI;
     public GameObject confettiPS;
+    public TextMeshProUGUI victoryText;
     string animSet;
 
     private int distanceDifference = 3;
@@ -38,6 +40,7 @@ public class GameManager : MonoBehaviour
     {
         currentSet = 1;
         points = 0;
+        totalPoints = 0;
 
         shootingScript = GameObject.Find("Player").GetComponent<Shooting>();
         mainCam = Camera.main;
@@ -86,6 +89,7 @@ public class GameManager : MonoBehaviour
         }
         else if (points >= sets[currentSet - 1].minimumPoints && currentSet == 4)
         {
+            victoryText.text = string.Format("Victory! \n Total points: {0}", totalPoints);
             Debug.Log("Victory!");
             confettiPS.gameObject.SetActive(true);
             shootingScript.canShoot = false;
