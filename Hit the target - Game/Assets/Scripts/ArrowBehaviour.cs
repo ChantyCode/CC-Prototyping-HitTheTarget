@@ -25,6 +25,11 @@ public class ArrowBehaviour : MonoBehaviour
         
         rb = GetComponent<Rigidbody2D>();
         hasHit = false;
+
+        this.GetComponent<AudioSource>().mute = MainManager.Instance.areSFXMuted;
+        this.GetComponent<AudioSource>().volume = MainManager.Instance.soundsValue;
+        this.GetComponentInChildren<TrailRenderer>().emitting = MainManager.Instance.areVFXOn;
+
     }
 
     // Update is called once per frame
@@ -44,6 +49,7 @@ public class ArrowBehaviour : MonoBehaviour
             source.PlayOneShot(targetImpactSFX);
             hasHit = true;
             gm.points++;
+            gm.totalPoints++;
             rb.velocity = Vector2.zero;
             rb.isKinematic = true;
         }
